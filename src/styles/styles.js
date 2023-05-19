@@ -15,6 +15,9 @@ export const baseTheme = createTheme({
     error: {
       main: "#424242",
     },
+    background: {
+      default: "#424242",
+    },
   },
 });
 
@@ -32,6 +35,9 @@ export const lightTheme = createTheme({
     },
     error: {
       main: "#424242",
+    },
+    background: {
+      default: "#424242",
     },
   },
 });
