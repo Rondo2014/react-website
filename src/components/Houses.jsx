@@ -8,7 +8,7 @@ import {
   Container,
   Typography,
 } from "@mui/material";
-import { alignProperty } from "@mui/material/styles/cssUtils";
+
 import Card from "@mui/material/Card";
 
 function BoxFill() {
@@ -42,7 +42,7 @@ function BoxFill() {
           <Box
             key={property.id}
             sx={{
-              width: 275,
+              width: { xs: 350, sm: 400, md: 350 },
               height: 450,
               backgroundColor: "primary",
               "&:hover": {
@@ -56,7 +56,7 @@ function BoxFill() {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  height="300"
+                  height="325"
                   image={property.images}
                 />
                 <CardContent>
